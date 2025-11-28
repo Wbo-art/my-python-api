@@ -1,0 +1,8 @@
+componentType: service
+name: my-python-api
+source:
+  path: /
+docker:
+  ports:
+    - containerPort: 8000
+      protocol: TCP
