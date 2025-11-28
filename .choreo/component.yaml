@@ -1,7 +1,9 @@
 componentType: service
-name: my-python-api
+name: python-flask-api
 source:
   path: /
+run:
+  command: "python app.py"
 docker:
   ports:
     - containerPort: 8000
